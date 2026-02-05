@@ -109,5 +109,4 @@ app.get('/api/streams', async (req, res) =&gt; {
 
 app.listen(PORT, () =&gt; {
   console.log(`Backend running on port ${PORT}`);
-  console.log(`CORS enabled for: ${FRONTEND_URL}`);
 });
